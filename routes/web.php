@@ -10,3 +10,6 @@ Route::post('/product/store', [ProductController::class, 'store'])->name('produc
 
 // prodotti creati
 Route::get('/product/index', [ProductController::class, 'index'])->name('product.index');
+
+// form per inserimento
+Route::get('/product/form', [ProductController::class, 'form'])->name('product.form');

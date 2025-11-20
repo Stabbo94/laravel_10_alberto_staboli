@@ -16,13 +16,19 @@ class ProductController extends Controller
         $products = Product::all();
         return view('product.index', compact('products'));
     }
-
+    
+    public function form()
+    {
+        return view('product.form');
+    }
+    
+    
     // form per aggiunta a shop
     public function create()
     {
         return view('welcome'); 
     }
-
+    
     // salvataggio nuovo prodotto
     public function store(ProductRequest $request)
     {
@@ -34,7 +40,7 @@ class ProductController extends Controller
         ]);        
         
         
-
+        
         return redirect()->route('home');
     }
 }
