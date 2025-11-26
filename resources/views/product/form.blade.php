@@ -1,5 +1,19 @@
 <x-layout>
     
+    <section class="text-bg-primary">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 my-0 py-5 text-center">
+                    <h1 class="text-center my-0">Carica il tuo prodotto!</h1>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bag-plus mt-3" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5"/>
+                        <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <section>
         <div class="container mt-4">
             <div class="row justify-content-center">
@@ -31,12 +45,8 @@
                             <label for="img" class="form-label">Aggiungi immagine del prodotto;</label>
                             <input name="img" type="file" class="form-control" id="img">
                         </div>             
-                        <button type="submit" class="btn btn-light w-100 mt-3 d-flex align-items-center justify-content-center">
+                        <button type="submit" class="btn btn-light w-100 mt-4 d-flex align-items-center justify-content-center">
                             Aggiungi allo shop
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag-plus ms-auto" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5"/>
-                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
-                            </svg>
                         </button>
                         
                     </form>
